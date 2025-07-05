@@ -1,0 +1,175 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:2067878045125468336",
+      "lastPropertyId": "9:2963977440881903999",
+      "name": "Product",
+      "properties": [
+        {
+          "id": "1:8279702216248258947",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:7283358934835874360",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "3:845179828956578944",
+          "name": "image",
+          "type": 9
+        },
+        {
+          "id": "4:9127917526394821930",
+          "name": "actualPrize",
+          "type": 6
+        },
+        {
+          "id": "5:76033304467859272",
+          "name": "discountedPrize",
+          "type": 6
+        },
+        {
+          "id": "6:8002579880985621239",
+          "name": "category",
+          "type": 9
+        },
+        {
+          "id": "7:6300506165652236473",
+          "name": "isAddedToCart",
+          "type": 1
+        },
+        {
+          "id": "8:2692639623226008028",
+          "name": "isFavorite",
+          "type": 1
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:3499937500791443203",
+      "lastPropertyId": "10:6819725083370212351",
+      "name": "OrderItem",
+      "properties": [
+        {
+          "id": "1:9035595199051737030",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:8035940731338904357",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "3:1519776434447833990",
+          "name": "image",
+          "type": 9
+        },
+        {
+          "id": "4:2683343259845113336",
+          "name": "actualPrize",
+          "type": 6
+        },
+        {
+          "id": "7:7400401718070679369",
+          "name": "quantity",
+          "type": 6
+        },
+        {
+          "id": "10:6819725083370212351",
+          "name": "isAddedToCart",
+          "type": 1
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "4:246015632503307283",
+      "lastPropertyId": "9:7002934822541372137",
+      "name": "FavoritesItem",
+      "properties": [
+        {
+          "id": "1:2746729393662225669",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:7975196440474491841",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "3:1746805467157796216",
+          "name": "image",
+          "type": 9
+        },
+        {
+          "id": "4:7229261267860940555",
+          "name": "actualPrize",
+          "type": 6
+        },
+        {
+          "id": "5:5627866817103110741",
+          "name": "discountedPrize",
+          "type": 6
+        },
+        {
+          "id": "6:1961510706600048426",
+          "name": "category",
+          "type": 9
+        },
+        {
+          "id": "7:4217789775671337362",
+          "name": "quantity",
+          "type": 6
+        },
+        {
+          "id": "8:8699147391100723676",
+          "name": "isAddedToCart",
+          "type": 1
+        },
+        {
+          "id": "9:7002934822541372137",
+          "name": "isFavorite",
+          "type": 1
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "4:246015632503307283",
+  "lastIndexId": "0:0",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [
+    7813487574252730154
+  ],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [
+    2963977440881903999,
+    4151733824683546849,
+    7329016070742040395,
+    2352147030617486617,
+    7944810067322722573,
+    7523569418136182728,
+    809280364718660254,
+    8344881006455304192,
+    1219453179368717331,
+    4169809050226406704,
+    8145586732970279578,
+    2204302931265889301
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}
