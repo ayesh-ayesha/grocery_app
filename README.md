@@ -1,16 +1,48 @@
-# mid_project
+# 🛒 Grocery App
 
-A new Flutter project.
+A simple and clean Flutter grocery shopping app built as a learning project.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📽️ Demo Video
 
-A few resources to get you started if this is your first Flutter project:
+🎬 [Watch Demo Video](https://drive.google.com/drive/folders/10fgonJ2nIU7Ra63D-QcOa8ASP62ZdUWw)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📱 About the App
+
+This Flutter-based Grocery App is a basic mobile shopping interface that displays categories like Fresh Fruits, Vegetables, and Bakery Products. Designed with a focus on responsive UI and clean code structure, it serves as a great starting point for learning Flutter app development using local database storage and state management.
+
+---
+
+## ✅ Features
+
+- 🧺 Displays 3 grocery categories (e.g., Fruits, Vegetables, Bakery)
+- ❤️ Favorite screen to view all marked items
+- 🛒 Cart screen with full **CRUD operations** (Add, Update Quantity, Delete, Clear Cart)
+- 🗃️ Local database using **ObjectBox** to store cart and favorites
+- ⚙️ **Provider** for simple and reactive state management
+- 🧭 Simple 2-screen navigation structure (Home, Cart, and Favorites)
+
+---
+
+## 🧑‍💻 Technologies Used
+
+- Flutter (Dart)
+- Provider (State Management)
+- ObjectBox (Local NoSQL Database)
+- MVVM Architecture (Clean structure)
+- Material Design (UI/UX)
+
+---
+
+## 🚀 Getting Started
+
+To run this project on your machine:
+
+```bash
+git clone https://github.com/yourusername/grocery_app.git
+cd grocery_app
+flutter pub get
+flutter run

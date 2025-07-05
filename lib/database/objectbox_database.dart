@@ -18,7 +18,7 @@ class ObjectBoxDatabase {
   ObjectBoxDatabase(this.store){
     productTable=store.box<Product>();
     orderTable=store.box<OrderItem>();
-     favoriteTable=store.b\ox<FavoritesItem>();
+     favoriteTable=store.box<FavoritesItem>();
   }
 
 
