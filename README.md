@@ -6,7 +6,7 @@ A simple and clean Flutter grocery shopping app built as a learning project.
 
 ## 📽️ Demo Video
 
-🎬 [Watch Demo Video](https://drive.google.com/drive/folders/10fgonJ2nIU7Ra63D-QcOa8ASP62ZdUWw)
+🎬 [Watch Demo Video](https://drive.google.com/file/d/10GzSioKGQCIqt6xp7dR7Z0NnXx1srDhS/view?usp=drive_link)
 
 ---
 
